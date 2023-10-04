@@ -8,5 +8,5 @@ RUN dotnet publish -c Release -o out
 # We use this stage to serve the app
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /webappcontainer
-COPY --from=build-stage /ausemartweb/out .
+COPY --from=build-stage /webappcontainer/out .
 ENTRYPOINT ["dotnet", "webappcontainer.dll"]
