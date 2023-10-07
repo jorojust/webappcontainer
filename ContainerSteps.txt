@@ -1,0 +1,10 @@
+Steps to Create Repository via Azure CLI
+
+1. Git clone https://github.com/jorojust/webappcontainer
+2. Go to new directory via "cd webappcontainer"
+3. Create my image utilizing my Dockerfile and ACR Task
+	a. az acr build image --myportfolio --registry myacr1 -- Dockerfile .
+
+Container instance with Image Creation
+1. Via Azure CLI
+	a. az container create --resource-group aci1-rg --name myportfolio --image myportfolio --dns-name-label jjportfolio --ports 80
