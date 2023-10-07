@@ -1,4 +1,4 @@
-#Info
+Information:
 
 These are the files I used to create my Azure Image.
 
