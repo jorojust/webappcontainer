@@ -36,9 +36,7 @@
     <div class="container">
 
       <h1><a href="index.html">Justine Jude Jorolan</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>IT Professional</span> from Sterling Heights</h2>
+      <h2><span>IT Professional</span> Portfolio</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -173,8 +171,9 @@
     <h3>This Site</h3>
     <p>This site version is hosted on an Azure Container. Below, you'll find links to mirrors of this site, each hosted on a different Azure service. This showcase not only presents my content but also exemplifies my proficiency in navigating various Azure services to meet specific needs. I invite you to explore and discover the Azure versatility that drives my portfolio.</p>
     <h3>Resources</h3>
-    <p>Below you can find the resources I utilized to create this portfolio website. It includes the free Template from Bootstrap, my custom files, and the steps I took to create some of my Azure Resources.</p>
-    <a href="https://github.com/jorojust/portfolio-webapp"><p>GitHub Repository</p></a>
+    <p>Below you can find the resources I utilized to create these sites. It includes my custom files and the steps I took to create my Azure Resources.</p>
+    <a href="https://github.com/jorojust/portfolio-webapp"><p>GitHub Repository - Web App</p></a>
+    <a href="https://github.com/jorojust/webappcontainer"><p>GitHub Repository - Container Instance</p></a>
     <a href="path-to-your-file.zip" download="file-name.zip">
       <i class="bx bx-download"></i> Download My Resources
     </a>
@@ -198,7 +197,7 @@
   </div>
 </div>
  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-  <div class="icon-box">
+  <div class="icon-box" onclick="window.location.href = 'http:jjportfolio.h2hxhnafdsgebcaw.eastus.azurecontainer.io';" style="cursor: pointer;">
     <div class="icon-web"><img src="assets/img/Cloud Sites/container-instance.svg" alt=""></div>
     <h4><a href="#">This Site - Container Site</a></h4>
     <p>This portfolio version is hosted on an Azure Container. The portfolio website is intricately linked with a publicly accessible GitHub repository, which I personally established and used as the source to create the Docker image for deployment, all managed through the Azure CLI.</p>
@@ -315,6 +314,10 @@
 
     </div>
   </section><!-- End Contact Section -->l
+
+  <div class="credits">
+    Hosted on an Azure Container
+  </div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
